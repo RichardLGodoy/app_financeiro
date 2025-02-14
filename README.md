@@ -22,3 +22,16 @@ Este projeto gerencia movimentações financeiras em contas bancárias, garantin
 
 ## 📂 Estrutura do Projeto
 
+/seu-projeto │── models.py # Definição das classes e do banco de dados │── view.py # Funções para manipulação de contas e transações │── templates.py # Interface em linha de comando para interação com o usuário │── requirements.txt # Dependências do projeto │── README.md # Documentação
+
+bash
+Copiar
+Editar
+
+## ⚡ Como Rodar o Projeto
+
+### 1️⃣ Clonar o repositório
+```sh
+git clone https://github.com/seu-usuario/seu-repositorio.git
+cd seu-repositorio
+
