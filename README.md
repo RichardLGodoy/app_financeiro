@@ -85,8 +85,8 @@ Interface de linha de comando (CLI) para interação do usuário, permitindo cri
 
 ## 📊 Exemplo de Uso
 Criando uma conta via código:
-```sh
-python
+
+```python
 
 from models import Conta, Bancos
 from view import criar_conta
@@ -95,8 +95,7 @@ nova_conta = Conta(banco=Bancos.NUBANK, valor=500.0)
 criar_conta(nova_conta)
 ```
 Movimentando dinheiro:
-```
-python
+```python
 
 from models import Historico, Tipos
 from view import movimentar_dinheiro
